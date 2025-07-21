@@ -19,12 +19,12 @@ int main( void )
 	std::cout << "max( c, d ) = " << ::max( c, d ) << std::endl;
 
 
-	// double e = 42.4;
-	// double f = 42.4;
+	double e = 42.4;
+	double f = 42.4;
 
-	// std::cout << "e = " << e << ", f = " << f << std::endl;
-	// std::cout << "min( e, f ) = " << ::min( e, f ) << std::endl;
-	// std::cout << "max( e, f ) = " << ::max( e, f ) << std::endl;
+	std::cout << "e = " << e << ", f = " << f << std::endl;
+	std::cout << "min( e, f ) = " << ::min( e, f ) << std::endl;
+	std::cout << "max( e, f ) = " << ::max( e, f ) << std::endl;
 
 	return 0;
 }
