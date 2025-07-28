@@ -14,7 +14,7 @@ int main(int, char**)
 	srand(time(NULL));
 	for (int i = 0; i < MAX_VAL; i++)
 	{
-		const int value = rand();//現在時刻を格納
+		const int value = rand();//乱数を生成して格納
 		numbers[i] = value;// 自作: Array::operator[] による書き込み
 		mirror[i] = value;// ミラー: 素の配列への書き込み
 	}
