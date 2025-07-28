@@ -11,7 +11,7 @@ void const_ToUpper(const char& value) {
 
 int main( void )
 {
-	char b[] = {'a', 'b', 'c'};
+	const char b[] = {'a', 'b', 'c'};
 	size_t b_len = 3;
 	::iter( b, b_len, const_ToUpper);
 
